@@ -18,6 +18,8 @@
 		4C19CCDA20DF827B00B8757E /* OneTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C19CCD820DF827B00B8757E /* OneTestViewController.xib */; };
 		4C19CCDE20DFB6FE00B8757E /* TwoRacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C19CCDC20DFB6FE00B8757E /* TwoRacViewController.m */; };
 		4C19CCDF20DFB6FE00B8757E /* TwoRacViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C19CCDD20DFB6FE00B8757E /* TwoRacViewController.xib */; };
+		4C49EEE120E75D9F003F8E72 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C49EEDF20E75D9E003F8E72 /* FiveViewController.m */; };
+		4C49EEE220E75D9F003F8E72 /* FiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C49EEE020E75D9E003F8E72 /* FiveViewController.xib */; };
 		4C6F116B20E12DB1004A44A8 /* ThreeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F116920E12DB1004A44A8 /* ThreeTestViewController.m */; };
 		4C6F116C20E12DB1004A44A8 /* ThreeTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F116A20E12DB1004A44A8 /* ThreeTestViewController.xib */; };
 		4C6F117020E136FD004A44A8 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F116E20E136FD004A44A8 /* FourViewController.m */; };
@@ -46,6 +48,9 @@
 		4C19CCDB20DFB6FE00B8757E /* TwoRacViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoRacViewController.h; sourceTree = "<group>"; };
 		4C19CCDC20DFB6FE00B8757E /* TwoRacViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoRacViewController.m; sourceTree = "<group>"; };
 		4C19CCDD20DFB6FE00B8757E /* TwoRacViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoRacViewController.xib; sourceTree = "<group>"; };
+		4C49EEDE20E75D9E003F8E72 /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		4C49EEDF20E75D9E003F8E72 /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		4C49EEE020E75D9E003F8E72 /* FiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FiveViewController.xib; sourceTree = "<group>"; };
 		4C6F116820E12DB1004A44A8 /* ThreeTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeTestViewController.h; sourceTree = "<group>"; };
 		4C6F116920E12DB1004A44A8 /* ThreeTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeTestViewController.m; sourceTree = "<group>"; };
 		4C6F116A20E12DB1004A44A8 /* ThreeTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeTestViewController.xib; sourceTree = "<group>"; };
@@ -123,6 +128,9 @@
 				4C6F116D20E136FD004A44A8 /* FourViewController.h */,
 				4C6F116E20E136FD004A44A8 /* FourViewController.m */,
 				4C6F116F20E136FD004A44A8 /* FourViewController.xib */,
+				4C49EEDE20E75D9E003F8E72 /* FiveViewController.h */,
+				4C49EEDF20E75D9E003F8E72 /* FiveViewController.m */,
+				4C49EEE020E75D9E003F8E72 /* FiveViewController.xib */,
 				4CA286EE20D79A6D0019E31C /* OtherViewController.h */,
 				4CA286EF20D79A6D0019E31C /* OtherViewController.m */,
 				4CA286F020D79A6D0019E31C /* OtherViewController.xib */,
@@ -209,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C49EEE220E75D9F003F8E72 /* FiveViewController.xib in Resources */,
 				4C19CCDF20DFB6FE00B8757E /* TwoRacViewController.xib in Resources */,
 				4CA286E520D78D8B0019E31C /* LaunchScreen.storyboard in Resources */,
 				4C19CCD520DF451500B8757E /* ThreeViewController.xib in Resources */,
@@ -258,6 +267,7 @@
 				4C19CCCF20DF450700B8757E /* TwoViewController.m in Sources */,
 				4C19CCD920DF827B00B8757E /* OneTestViewController.m in Sources */,
 				4C6F116B20E12DB1004A44A8 /* ThreeTestViewController.m in Sources */,
+				4C49EEE120E75D9F003F8E72 /* FiveViewController.m in Sources */,
 				4CA286E820D78D8B0019E31C /* main.m in Sources */,
 				4CA286DA20D78D890019E31C /* AppDelegate.m in Sources */,
 			);

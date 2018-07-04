@@ -14,6 +14,8 @@
 #import "TwoRacViewController.h"
 #import "ThreeViewController.h"
 #import "ThreeTestViewController.h"
+#import "FourViewController.h"
+#import "FiveViewController.h"
 #import "OtherViewController.h"
 
 @interface AppDelegate ()
@@ -33,8 +35,9 @@
     //TwoViewController *vc = [[TwoViewController alloc] init];
     //TwoRacViewController *vc = [[TwoRacViewController alloc] init];
     //ThreeViewController *vc = [[ThreeViewController alloc] init];
-    //
-    ThreeTestViewController *vc = [[ThreeTestViewController alloc] init];
+    //ThreeTestViewController *vc = [[ThreeTestViewController alloc] init];
+    //FourViewController *vc = [[FourViewController alloc] init];
+    FiveViewController *vc = [[FiveViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     
